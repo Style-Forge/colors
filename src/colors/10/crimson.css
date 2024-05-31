@@ -1,0 +1,139 @@
+:root {
+  --sf-c-crimson: 348 83% 47%;
+  --sf-c-crimson-10: 348 83% 10%;
+  --sf-c-crimson-20: 348 83% 20%;
+  --sf-c-crimson-30: 348 83% 30%;
+  --sf-c-crimson-40: 348 83% 40%;
+  --sf-c-crimson-50: 348 83% 50%;
+  --sf-c-crimson-60: 348 83% 60%;
+  --sf-c-crimson-70: 348 83% 70%;
+  --sf-c-crimson-80: 348 83% 80%;
+  --sf-c-crimson-90: 348 83% 90%;
+ 
+  --sf-c-txt-crimson: var(--sf-c-crimson);
+  --sf-c-txt-crimson-10: var(--sf-c-crimson-10);
+  --sf-c-txt-crimson-20: var(--sf-c-crimson-20);
+  --sf-c-txt-crimson-30: var(--sf-c-crimson-30);
+  --sf-c-txt-crimson-40: var(--sf-c-crimson-40);
+  --sf-c-txt-crimson-50: var(--sf-c-crimson-50);
+  --sf-c-txt-crimson-60: var(--sf-c-crimson-60);
+  --sf-c-txt-crimson-70: var(--sf-c-crimson-70);
+  --sf-c-txt-crimson-80: var(--sf-c-crimson-80);
+  --sf-c-txt-crimson-90: var(--sf-c-crimson-90);
+ 
+  --sf-dark-c-crimson: 348 83% 53%;
+  --sf-dark-c-crimson-10: 348 83% 90%;
+  --sf-dark-c-crimson-20: 348 83% 80%;
+  --sf-dark-c-crimson-30: 348 83% 70%;
+  --sf-dark-c-crimson-40: 348 83% 60%;
+  --sf-dark-c-crimson-50: 348 83% 50%;
+  --sf-dark-c-crimson-60: 348 83% 40%;
+  --sf-dark-c-crimson-70: 348 83% 30%;
+  --sf-dark-c-crimson-80: 348 83% 20%;
+  --sf-dark-c-crimson-90: 348 83% 10%;
+ 
+  --sf-dark-c-txt-crimson: var(--sf-dark-c-crimson);
+  --sf-dark-c-txt-crimson-10: var(--sf-dark-c-crimson-10);
+  --sf-dark-c-txt-crimson-20: var(--sf-dark-c-crimson-20);
+  --sf-dark-c-txt-crimson-30: var(--sf-dark-c-crimson-30);
+  --sf-dark-c-txt-crimson-40: var(--sf-dark-c-crimson-40);
+  --sf-dark-c-txt-crimson-50: var(--sf-dark-c-crimson-50);
+  --sf-dark-c-txt-crimson-60: var(--sf-dark-c-crimson-60);
+  --sf-dark-c-txt-crimson-70: var(--sf-dark-c-crimson-70);
+  --sf-dark-c-txt-crimson-80: var(--sf-dark-c-crimson-80);
+  --sf-dark-c-txt-crimson-90: var(--sf-dark-c-crimson-90);
+}
+ 
+:root[data-theme="dark"] {
+  --sf-c-crimson: var(--sf-dark-c-crimson);
+  --sf-c-crimson-10: var(--sf-dark-c-crimson-10);
+  --sf-c-crimson-20: var(--sf-dark-c-crimson-20);
+  --sf-c-crimson-30: var(--sf-dark-c-crimson-30);
+  --sf-c-crimson-40: var(--sf-dark-c-crimson-40);
+  --sf-c-crimson-50: var(--sf-dark-c-crimson-50);
+  --sf-c-crimson-60: var(--sf-dark-c-crimson-60);
+  --sf-c-crimson-70: var(--sf-dark-c-crimson-70);
+  --sf-c-crimson-80: var(--sf-dark-c-crimson-80);
+  --sf-c-crimson-90: var(--sf-dark-c-crimson-90);
+ 
+  --sf-c-txt-crimson: var(--sf-dark-c-txt-crimson);
+  --sf-c-txt-crimson-10: var(--sf-dark-c-txt-crimson-10);
+  --sf-c-txt-crimson-20: var(--sf-dark-c-txt-crimson-20);
+  --sf-c-txt-crimson-30: var(--sf-dark-c-txt-crimson-30);
+  --sf-c-txt-crimson-40: var(--sf-dark-c-txt-crimson-40);
+  --sf-c-txt-crimson-50: var(--sf-dark-c-txt-crimson-50);
+  --sf-c-txt-crimson-60: var(--sf-dark-c-txt-crimson-60);
+  --sf-c-txt-crimson-70: var(--sf-dark-c-txt-crimson-70);
+  --sf-c-txt-crimson-80: var(--sf-dark-c-txt-crimson-80);
+  --sf-c-txt-crimson-90: var(--sf-dark-c-txt-crimson-90);
+}
+
+.sf-c-crimson { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson)) }
+.sf-c-crimson\:10 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-10)) }
+.sf-c-crimson\:20 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-20)) }
+.sf-c-crimson\:30 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-30)) }
+.sf-c-crimson\:40 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-40)) }
+.sf-c-crimson\:50 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-50)) }
+.sf-c-crimson\:60 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-60)) }
+.sf-c-crimson\:70 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-70)) }
+.sf-c-crimson\:80 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-80)) }
+.sf-c-crimson\:90 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-90)) }
+ 
+[data-theme="dark"] .sf-c-crimson { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson)) }
+[data-theme="dark"] .sf-c-crimson\:10 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-10)) }
+[data-theme="dark"] .sf-c-crimson\:20 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-20)) }
+[data-theme="dark"] .sf-c-crimson\:30 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-30)) }
+[data-theme="dark"] .sf-c-crimson\:40 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-40)) }
+[data-theme="dark"] .sf-c-crimson\:50 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-50)) }
+[data-theme="dark"] .sf-c-crimson\:60 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-60)) }
+[data-theme="dark"] .sf-c-crimson\:70 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-70)) }
+[data-theme="dark"] .sf-c-crimson\:80 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-80)) }
+[data-theme="dark"] .sf-c-crimson\:90 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-90)) }
+ 
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --sf-c-crimson: var(--sf-dark-c-crimson);
+    --sf-c-crimson-10: var(--sf-dark-c-crimson-10);
+    --sf-c-crimson-20: var(--sf-dark-c-crimson-20);
+    --sf-c-crimson-30: var(--sf-dark-c-crimson-30);
+    --sf-c-crimson-40: var(--sf-dark-c-crimson-40);
+    --sf-c-crimson-50: var(--sf-dark-c-crimson-50);
+    --sf-c-crimson-60: var(--sf-dark-c-crimson-60);
+    --sf-c-crimson-70: var(--sf-dark-c-crimson-70);
+    --sf-c-crimson-80: var(--sf-dark-c-crimson-80);
+    --sf-c-crimson-90: var(--sf-dark-c-crimson-90);
+ 
+    --sf-c-txt-crimson: var(--sf-dark-c-txt-crimson);
+    --sf-c-txt-crimson-10: var(--sf-dark-c-txt-crimson-10);
+    --sf-c-txt-crimson-20: var(--sf-dark-c-txt-crimson-20);
+    --sf-c-txt-crimson-30: var(--sf-dark-c-txt-crimson-30);
+    --sf-c-txt-crimson-40: var(--sf-dark-c-txt-crimson-40);
+    --sf-c-txt-crimson-50: var(--sf-dark-c-txt-crimson-50);
+    --sf-c-txt-crimson-60: var(--sf-dark-c-txt-crimson-60);
+    --sf-c-txt-crimson-70: var(--sf-dark-c-txt-crimson-70);
+    --sf-c-txt-crimson-80: var(--sf-dark-c-txt-crimson-80);
+    --sf-c-txt-crimson-90: var(--sf-dark-c-txt-crimson-90);
+  }
+ 
+  [data-theme="auto"] .sf-c-crimson { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson)) }
+  [data-theme="auto"] .sf-c-crimson\:10 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-10)) }
+  [data-theme="auto"] .sf-c-crimson\:20 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-20)) }
+  [data-theme="auto"] .sf-c-crimson\:30 { color: hsl(var(--sf-c-txt-crimson-90)); background: hsl(var(--sf-c-crimson-30)) }
+  [data-theme="auto"] .sf-c-crimson\:40 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-40)) }
+  [data-theme="auto"] .sf-c-crimson\:50 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-50)) }
+  [data-theme="auto"] .sf-c-crimson\:60 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-60)) }
+  [data-theme="auto"] .sf-c-crimson\:70 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-70)) }
+  [data-theme="auto"] .sf-c-crimson\:80 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-80)) }
+  [data-theme="auto"] .sf-c-crimson\:90 { color: hsl(var(--sf-c-txt-crimson-10)); background: hsl(var(--sf-c-crimson-90)) }
+}
+
+.sf-c-txt-crimson { color: hsl(var(--sf-c-txt-crimson)) }
+.sf-c-txt-crimson\:10 { color: hsl(var(--sf-c-txt-crimson-10)) }
+.sf-c-txt-crimson\:20 { color: hsl(var(--sf-c-txt-crimson-20)) }
+.sf-c-txt-crimson\:30 { color: hsl(var(--sf-c-txt-crimson-30)) }
+.sf-c-txt-crimson\:40 { color: hsl(var(--sf-c-txt-crimson-40)) }
+.sf-c-txt-crimson\:50 { color: hsl(var(--sf-c-txt-crimson-50)) }
+.sf-c-txt-crimson\:60 { color: hsl(var(--sf-c-txt-crimson-60)) }
+.sf-c-txt-crimson\:70 { color: hsl(var(--sf-c-txt-crimson-70)) }
+.sf-c-txt-crimson\:80 { color: hsl(var(--sf-c-txt-crimson-80)) }
+.sf-c-txt-crimson\:90 { color: hsl(var(--sf-c-txt-crimson-90)) }

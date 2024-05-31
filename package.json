@@ -1,0 +1,26 @@
+{
+  "name": "style-forge.colors",
+  "version": "1.0.0",
+  "description": "Colors CSS for style-forge",
+  "type": "module",
+  "main": "colors.css",
+  "repository": "github:sarmaged/style-forge.colors",
+  "author": "Sarmaged <sarmaged@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "style-forge.colors",
+    "css",
+    "colors"
+  ],
+  "scripts": {
+    "build": "node builder.js",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.23",
+    "postcss-combine-duplicated-selectors": "^10.0.3",
+    "postcss-discard-comments": "^6.0.0",
+    "postcss-import": "^15.1.0",
+    "postcss-minify": "^1.1.0"
+  }
+}

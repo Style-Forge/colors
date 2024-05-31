@@ -1,0 +1,259 @@
+:root {
+  --sf-c-seashell: 25 100% 97%;
+  --sf-c-seashell-5: 25 100% 5%;
+  --sf-c-seashell-10: 25 100% 10%;
+  --sf-c-seashell-15: 25 100% 15%;
+  --sf-c-seashell-20: 25 100% 20%;
+  --sf-c-seashell-25: 25 100% 25%;
+  --sf-c-seashell-30: 25 100% 30%;
+  --sf-c-seashell-35: 25 100% 35%;
+  --sf-c-seashell-40: 25 100% 40%;
+  --sf-c-seashell-45: 25 100% 45%;
+  --sf-c-seashell-50: 25 100% 50%;
+  --sf-c-seashell-55: 25 100% 55%;
+  --sf-c-seashell-60: 25 100% 60%;
+  --sf-c-seashell-65: 25 100% 65%;
+  --sf-c-seashell-70: 25 100% 70%;
+  --sf-c-seashell-75: 25 100% 75%;
+  --sf-c-seashell-80: 25 100% 80%;
+  --sf-c-seashell-85: 25 100% 85%;
+  --sf-c-seashell-90: 25 100% 90%;
+  --sf-c-seashell-95: 25 100% 95%;
+ 
+  --sf-c-txt-seashell: var(--sf-c-seashell);
+  --sf-c-txt-seashell-5: var(--sf-c-seashell-5);
+  --sf-c-txt-seashell-10: var(--sf-c-seashell-10);
+  --sf-c-txt-seashell-15: var(--sf-c-seashell-15);
+  --sf-c-txt-seashell-20: var(--sf-c-seashell-20);
+  --sf-c-txt-seashell-25: var(--sf-c-seashell-25);
+  --sf-c-txt-seashell-30: var(--sf-c-seashell-30);
+  --sf-c-txt-seashell-35: var(--sf-c-seashell-35);
+  --sf-c-txt-seashell-40: var(--sf-c-seashell-40);
+  --sf-c-txt-seashell-45: var(--sf-c-seashell-45);
+  --sf-c-txt-seashell-50: var(--sf-c-seashell-50);
+  --sf-c-txt-seashell-55: var(--sf-c-seashell-55);
+  --sf-c-txt-seashell-60: var(--sf-c-seashell-60);
+  --sf-c-txt-seashell-65: var(--sf-c-seashell-65);
+  --sf-c-txt-seashell-70: var(--sf-c-seashell-70);
+  --sf-c-txt-seashell-75: var(--sf-c-seashell-75);
+  --sf-c-txt-seashell-80: var(--sf-c-seashell-80);
+  --sf-c-txt-seashell-85: var(--sf-c-seashell-85);
+  --sf-c-txt-seashell-90: var(--sf-c-seashell-90);
+  --sf-c-txt-seashell-95: var(--sf-c-seashell-95);
+ 
+  --sf-dark-c-seashell: 25 100% 3%;
+  --sf-dark-c-seashell-5: 25 100% 95%;
+  --sf-dark-c-seashell-10: 25 100% 90%;
+  --sf-dark-c-seashell-15: 25 100% 85%;
+  --sf-dark-c-seashell-20: 25 100% 80%;
+  --sf-dark-c-seashell-25: 25 100% 75%;
+  --sf-dark-c-seashell-30: 25 100% 70%;
+  --sf-dark-c-seashell-35: 25 100% 65%;
+  --sf-dark-c-seashell-40: 25 100% 60%;
+  --sf-dark-c-seashell-45: 25 100% 55%;
+  --sf-dark-c-seashell-50: 25 100% 50%;
+  --sf-dark-c-seashell-55: 25 100% 45%;
+  --sf-dark-c-seashell-60: 25 100% 40%;
+  --sf-dark-c-seashell-65: 25 100% 35%;
+  --sf-dark-c-seashell-70: 25 100% 30%;
+  --sf-dark-c-seashell-75: 25 100% 25%;
+  --sf-dark-c-seashell-80: 25 100% 20%;
+  --sf-dark-c-seashell-85: 25 100% 15%;
+  --sf-dark-c-seashell-90: 25 100% 10%;
+  --sf-dark-c-seashell-95: 25 100% 5%;
+ 
+  --sf-dark-c-txt-seashell: var(--sf-dark-c-seashell);
+  --sf-dark-c-txt-seashell-5: var(--sf-dark-c-seashell-5);
+  --sf-dark-c-txt-seashell-10: var(--sf-dark-c-seashell-10);
+  --sf-dark-c-txt-seashell-15: var(--sf-dark-c-seashell-15);
+  --sf-dark-c-txt-seashell-20: var(--sf-dark-c-seashell-20);
+  --sf-dark-c-txt-seashell-25: var(--sf-dark-c-seashell-25);
+  --sf-dark-c-txt-seashell-30: var(--sf-dark-c-seashell-30);
+  --sf-dark-c-txt-seashell-35: var(--sf-dark-c-seashell-35);
+  --sf-dark-c-txt-seashell-40: var(--sf-dark-c-seashell-40);
+  --sf-dark-c-txt-seashell-45: var(--sf-dark-c-seashell-45);
+  --sf-dark-c-txt-seashell-50: var(--sf-dark-c-seashell-50);
+  --sf-dark-c-txt-seashell-55: var(--sf-dark-c-seashell-55);
+  --sf-dark-c-txt-seashell-60: var(--sf-dark-c-seashell-60);
+  --sf-dark-c-txt-seashell-65: var(--sf-dark-c-seashell-65);
+  --sf-dark-c-txt-seashell-70: var(--sf-dark-c-seashell-70);
+  --sf-dark-c-txt-seashell-75: var(--sf-dark-c-seashell-75);
+  --sf-dark-c-txt-seashell-80: var(--sf-dark-c-seashell-80);
+  --sf-dark-c-txt-seashell-85: var(--sf-dark-c-seashell-85);
+  --sf-dark-c-txt-seashell-90: var(--sf-dark-c-seashell-90);
+  --sf-dark-c-txt-seashell-95: var(--sf-dark-c-seashell-95);
+}
+ 
+:root[data-theme="dark"] {
+  --sf-c-seashell: var(--sf-dark-c-seashell);
+  --sf-c-seashell-5: var(--sf-dark-c-seashell-5);
+  --sf-c-seashell-10: var(--sf-dark-c-seashell-10);
+  --sf-c-seashell-15: var(--sf-dark-c-seashell-15);
+  --sf-c-seashell-20: var(--sf-dark-c-seashell-20);
+  --sf-c-seashell-25: var(--sf-dark-c-seashell-25);
+  --sf-c-seashell-30: var(--sf-dark-c-seashell-30);
+  --sf-c-seashell-35: var(--sf-dark-c-seashell-35);
+  --sf-c-seashell-40: var(--sf-dark-c-seashell-40);
+  --sf-c-seashell-45: var(--sf-dark-c-seashell-45);
+  --sf-c-seashell-50: var(--sf-dark-c-seashell-50);
+  --sf-c-seashell-55: var(--sf-dark-c-seashell-55);
+  --sf-c-seashell-60: var(--sf-dark-c-seashell-60);
+  --sf-c-seashell-65: var(--sf-dark-c-seashell-65);
+  --sf-c-seashell-70: var(--sf-dark-c-seashell-70);
+  --sf-c-seashell-75: var(--sf-dark-c-seashell-75);
+  --sf-c-seashell-80: var(--sf-dark-c-seashell-80);
+  --sf-c-seashell-85: var(--sf-dark-c-seashell-85);
+  --sf-c-seashell-90: var(--sf-dark-c-seashell-90);
+  --sf-c-seashell-95: var(--sf-dark-c-seashell-95);
+ 
+  --sf-c-txt-seashell: var(--sf-dark-c-txt-seashell);
+  --sf-c-txt-seashell-5: var(--sf-dark-c-txt-seashell-5);
+  --sf-c-txt-seashell-10: var(--sf-dark-c-txt-seashell-10);
+  --sf-c-txt-seashell-15: var(--sf-dark-c-txt-seashell-15);
+  --sf-c-txt-seashell-20: var(--sf-dark-c-txt-seashell-20);
+  --sf-c-txt-seashell-25: var(--sf-dark-c-txt-seashell-25);
+  --sf-c-txt-seashell-30: var(--sf-dark-c-txt-seashell-30);
+  --sf-c-txt-seashell-35: var(--sf-dark-c-txt-seashell-35);
+  --sf-c-txt-seashell-40: var(--sf-dark-c-txt-seashell-40);
+  --sf-c-txt-seashell-45: var(--sf-dark-c-txt-seashell-45);
+  --sf-c-txt-seashell-50: var(--sf-dark-c-txt-seashell-50);
+  --sf-c-txt-seashell-55: var(--sf-dark-c-txt-seashell-55);
+  --sf-c-txt-seashell-60: var(--sf-dark-c-txt-seashell-60);
+  --sf-c-txt-seashell-65: var(--sf-dark-c-txt-seashell-65);
+  --sf-c-txt-seashell-70: var(--sf-dark-c-txt-seashell-70);
+  --sf-c-txt-seashell-75: var(--sf-dark-c-txt-seashell-75);
+  --sf-c-txt-seashell-80: var(--sf-dark-c-txt-seashell-80);
+  --sf-c-txt-seashell-85: var(--sf-dark-c-txt-seashell-85);
+  --sf-c-txt-seashell-90: var(--sf-dark-c-txt-seashell-90);
+  --sf-c-txt-seashell-95: var(--sf-dark-c-txt-seashell-95);
+}
+
+.sf-c-seashell { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell)) }
+.sf-c-seashell\:5 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-5)) }
+.sf-c-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-10)) }
+.sf-c-seashell\:15 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-15)) }
+.sf-c-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-20)) }
+.sf-c-seashell\:25 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-25)) }
+.sf-c-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-30)) }
+.sf-c-seashell\:35 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-35)) }
+.sf-c-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-40)) }
+.sf-c-seashell\:45 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-45)) }
+.sf-c-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-50)) }
+.sf-c-seashell\:55 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-55)) }
+.sf-c-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-60)) }
+.sf-c-seashell\:65 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-65)) }
+.sf-c-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-70)) }
+.sf-c-seashell\:75 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-75)) }
+.sf-c-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-80)) }
+.sf-c-seashell\:85 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-85)) }
+.sf-c-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-90)) }
+.sf-c-seashell\:95 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-95)) }
+ 
+[data-theme="dark"] .sf-c-seashell { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell)) }
+[data-theme="dark"] .sf-c-seashell\:5 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-5)) }
+[data-theme="dark"] .sf-c-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-10)) }
+[data-theme="dark"] .sf-c-seashell\:15 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-15)) }
+[data-theme="dark"] .sf-c-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-20)) }
+[data-theme="dark"] .sf-c-seashell\:25 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-25)) }
+[data-theme="dark"] .sf-c-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-30)) }
+[data-theme="dark"] .sf-c-seashell\:35 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-35)) }
+[data-theme="dark"] .sf-c-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-40)) }
+[data-theme="dark"] .sf-c-seashell\:45 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-45)) }
+[data-theme="dark"] .sf-c-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-50)) }
+[data-theme="dark"] .sf-c-seashell\:55 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-55)) }
+[data-theme="dark"] .sf-c-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-60)) }
+[data-theme="dark"] .sf-c-seashell\:65 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-65)) }
+[data-theme="dark"] .sf-c-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-70)) }
+[data-theme="dark"] .sf-c-seashell\:75 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-75)) }
+[data-theme="dark"] .sf-c-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-80)) }
+[data-theme="dark"] .sf-c-seashell\:85 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-85)) }
+[data-theme="dark"] .sf-c-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-90)) }
+[data-theme="dark"] .sf-c-seashell\:95 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-95)) }
+ 
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --sf-c-seashell: var(--sf-dark-c-seashell);
+    --sf-c-seashell-5: var(--sf-dark-c-seashell-5);
+    --sf-c-seashell-10: var(--sf-dark-c-seashell-10);
+    --sf-c-seashell-15: var(--sf-dark-c-seashell-15);
+    --sf-c-seashell-20: var(--sf-dark-c-seashell-20);
+    --sf-c-seashell-25: var(--sf-dark-c-seashell-25);
+    --sf-c-seashell-30: var(--sf-dark-c-seashell-30);
+    --sf-c-seashell-35: var(--sf-dark-c-seashell-35);
+    --sf-c-seashell-40: var(--sf-dark-c-seashell-40);
+    --sf-c-seashell-45: var(--sf-dark-c-seashell-45);
+    --sf-c-seashell-50: var(--sf-dark-c-seashell-50);
+    --sf-c-seashell-55: var(--sf-dark-c-seashell-55);
+    --sf-c-seashell-60: var(--sf-dark-c-seashell-60);
+    --sf-c-seashell-65: var(--sf-dark-c-seashell-65);
+    --sf-c-seashell-70: var(--sf-dark-c-seashell-70);
+    --sf-c-seashell-75: var(--sf-dark-c-seashell-75);
+    --sf-c-seashell-80: var(--sf-dark-c-seashell-80);
+    --sf-c-seashell-85: var(--sf-dark-c-seashell-85);
+    --sf-c-seashell-90: var(--sf-dark-c-seashell-90);
+    --sf-c-seashell-95: var(--sf-dark-c-seashell-95);
+ 
+    --sf-c-txt-seashell: var(--sf-dark-c-txt-seashell);
+    --sf-c-txt-seashell-5: var(--sf-dark-c-txt-seashell-5);
+    --sf-c-txt-seashell-10: var(--sf-dark-c-txt-seashell-10);
+    --sf-c-txt-seashell-15: var(--sf-dark-c-txt-seashell-15);
+    --sf-c-txt-seashell-20: var(--sf-dark-c-txt-seashell-20);
+    --sf-c-txt-seashell-25: var(--sf-dark-c-txt-seashell-25);
+    --sf-c-txt-seashell-30: var(--sf-dark-c-txt-seashell-30);
+    --sf-c-txt-seashell-35: var(--sf-dark-c-txt-seashell-35);
+    --sf-c-txt-seashell-40: var(--sf-dark-c-txt-seashell-40);
+    --sf-c-txt-seashell-45: var(--sf-dark-c-txt-seashell-45);
+    --sf-c-txt-seashell-50: var(--sf-dark-c-txt-seashell-50);
+    --sf-c-txt-seashell-55: var(--sf-dark-c-txt-seashell-55);
+    --sf-c-txt-seashell-60: var(--sf-dark-c-txt-seashell-60);
+    --sf-c-txt-seashell-65: var(--sf-dark-c-txt-seashell-65);
+    --sf-c-txt-seashell-70: var(--sf-dark-c-txt-seashell-70);
+    --sf-c-txt-seashell-75: var(--sf-dark-c-txt-seashell-75);
+    --sf-c-txt-seashell-80: var(--sf-dark-c-txt-seashell-80);
+    --sf-c-txt-seashell-85: var(--sf-dark-c-txt-seashell-85);
+    --sf-c-txt-seashell-90: var(--sf-dark-c-txt-seashell-90);
+    --sf-c-txt-seashell-95: var(--sf-dark-c-txt-seashell-95);
+  }
+ 
+  [data-theme="auto"] .sf-c-seashell { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell)) }
+  [data-theme="auto"] .sf-c-seashell\:5 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-5)) }
+  [data-theme="auto"] .sf-c-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-10)) }
+  [data-theme="auto"] .sf-c-seashell\:15 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-15)) }
+  [data-theme="auto"] .sf-c-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-20)) }
+  [data-theme="auto"] .sf-c-seashell\:25 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-25)) }
+  [data-theme="auto"] .sf-c-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-30)) }
+  [data-theme="auto"] .sf-c-seashell\:35 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-35)) }
+  [data-theme="auto"] .sf-c-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-40)) }
+  [data-theme="auto"] .sf-c-seashell\:45 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-45)) }
+  [data-theme="auto"] .sf-c-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-95)); background: hsl(var(--sf-c-seashell-50)) }
+  [data-theme="auto"] .sf-c-seashell\:55 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-55)) }
+  [data-theme="auto"] .sf-c-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-60)) }
+  [data-theme="auto"] .sf-c-seashell\:65 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-65)) }
+  [data-theme="auto"] .sf-c-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-70)) }
+  [data-theme="auto"] .sf-c-seashell\:75 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-75)) }
+  [data-theme="auto"] .sf-c-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-80)) }
+  [data-theme="auto"] .sf-c-seashell\:85 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-85)) }
+  [data-theme="auto"] .sf-c-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-90)) }
+  [data-theme="auto"] .sf-c-seashell\:95 { color: hsl(var(--sf-c-txt-seashell-5)); background: hsl(var(--sf-c-seashell-95)) }
+}
+
+.sf-c-txt-seashell { color: hsl(var(--sf-c-txt-seashell)) }
+.sf-c-txt-seashell\:5 { color: hsl(var(--sf-c-txt-seashell-5)) }
+.sf-c-txt-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-10)) }
+.sf-c-txt-seashell\:15 { color: hsl(var(--sf-c-txt-seashell-15)) }
+.sf-c-txt-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-20)) }
+.sf-c-txt-seashell\:25 { color: hsl(var(--sf-c-txt-seashell-25)) }
+.sf-c-txt-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-30)) }
+.sf-c-txt-seashell\:35 { color: hsl(var(--sf-c-txt-seashell-35)) }
+.sf-c-txt-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-40)) }
+.sf-c-txt-seashell\:45 { color: hsl(var(--sf-c-txt-seashell-45)) }
+.sf-c-txt-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-50)) }
+.sf-c-txt-seashell\:55 { color: hsl(var(--sf-c-txt-seashell-55)) }
+.sf-c-txt-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-60)) }
+.sf-c-txt-seashell\:65 { color: hsl(var(--sf-c-txt-seashell-65)) }
+.sf-c-txt-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-70)) }
+.sf-c-txt-seashell\:75 { color: hsl(var(--sf-c-txt-seashell-75)) }
+.sf-c-txt-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-80)) }
+.sf-c-txt-seashell\:85 { color: hsl(var(--sf-c-txt-seashell-85)) }
+.sf-c-txt-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-90)) }
+.sf-c-txt-seashell\:95 { color: hsl(var(--sf-c-txt-seashell-95)) }

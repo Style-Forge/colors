@@ -1,0 +1,259 @@
+:root {
+  --sf-c-forestgreen: 120 61% 34%;
+  --sf-c-forestgreen-5: 120 61% 5%;
+  --sf-c-forestgreen-10: 120 61% 10%;
+  --sf-c-forestgreen-15: 120 61% 15%;
+  --sf-c-forestgreen-20: 120 61% 20%;
+  --sf-c-forestgreen-25: 120 61% 25%;
+  --sf-c-forestgreen-30: 120 61% 30%;
+  --sf-c-forestgreen-35: 120 61% 35%;
+  --sf-c-forestgreen-40: 120 61% 40%;
+  --sf-c-forestgreen-45: 120 61% 45%;
+  --sf-c-forestgreen-50: 120 61% 50%;
+  --sf-c-forestgreen-55: 120 61% 55%;
+  --sf-c-forestgreen-60: 120 61% 60%;
+  --sf-c-forestgreen-65: 120 61% 65%;
+  --sf-c-forestgreen-70: 120 61% 70%;
+  --sf-c-forestgreen-75: 120 61% 75%;
+  --sf-c-forestgreen-80: 120 61% 80%;
+  --sf-c-forestgreen-85: 120 61% 85%;
+  --sf-c-forestgreen-90: 120 61% 90%;
+  --sf-c-forestgreen-95: 120 61% 95%;
+ 
+  --sf-c-txt-forestgreen: var(--sf-c-forestgreen);
+  --sf-c-txt-forestgreen-5: var(--sf-c-forestgreen-5);
+  --sf-c-txt-forestgreen-10: var(--sf-c-forestgreen-10);
+  --sf-c-txt-forestgreen-15: var(--sf-c-forestgreen-15);
+  --sf-c-txt-forestgreen-20: var(--sf-c-forestgreen-20);
+  --sf-c-txt-forestgreen-25: var(--sf-c-forestgreen-25);
+  --sf-c-txt-forestgreen-30: var(--sf-c-forestgreen-30);
+  --sf-c-txt-forestgreen-35: var(--sf-c-forestgreen-35);
+  --sf-c-txt-forestgreen-40: var(--sf-c-forestgreen-40);
+  --sf-c-txt-forestgreen-45: var(--sf-c-forestgreen-45);
+  --sf-c-txt-forestgreen-50: var(--sf-c-forestgreen-50);
+  --sf-c-txt-forestgreen-55: var(--sf-c-forestgreen-55);
+  --sf-c-txt-forestgreen-60: var(--sf-c-forestgreen-60);
+  --sf-c-txt-forestgreen-65: var(--sf-c-forestgreen-65);
+  --sf-c-txt-forestgreen-70: var(--sf-c-forestgreen-70);
+  --sf-c-txt-forestgreen-75: var(--sf-c-forestgreen-75);
+  --sf-c-txt-forestgreen-80: var(--sf-c-forestgreen-80);
+  --sf-c-txt-forestgreen-85: var(--sf-c-forestgreen-85);
+  --sf-c-txt-forestgreen-90: var(--sf-c-forestgreen-90);
+  --sf-c-txt-forestgreen-95: var(--sf-c-forestgreen-95);
+ 
+  --sf-dark-c-forestgreen: 120 61% 66%;
+  --sf-dark-c-forestgreen-5: 120 61% 95%;
+  --sf-dark-c-forestgreen-10: 120 61% 90%;
+  --sf-dark-c-forestgreen-15: 120 61% 85%;
+  --sf-dark-c-forestgreen-20: 120 61% 80%;
+  --sf-dark-c-forestgreen-25: 120 61% 75%;
+  --sf-dark-c-forestgreen-30: 120 61% 70%;
+  --sf-dark-c-forestgreen-35: 120 61% 65%;
+  --sf-dark-c-forestgreen-40: 120 61% 60%;
+  --sf-dark-c-forestgreen-45: 120 61% 55%;
+  --sf-dark-c-forestgreen-50: 120 61% 50%;
+  --sf-dark-c-forestgreen-55: 120 61% 45%;
+  --sf-dark-c-forestgreen-60: 120 61% 40%;
+  --sf-dark-c-forestgreen-65: 120 61% 35%;
+  --sf-dark-c-forestgreen-70: 120 61% 30%;
+  --sf-dark-c-forestgreen-75: 120 61% 25%;
+  --sf-dark-c-forestgreen-80: 120 61% 20%;
+  --sf-dark-c-forestgreen-85: 120 61% 15%;
+  --sf-dark-c-forestgreen-90: 120 61% 10%;
+  --sf-dark-c-forestgreen-95: 120 61% 5%;
+ 
+  --sf-dark-c-txt-forestgreen: var(--sf-dark-c-forestgreen);
+  --sf-dark-c-txt-forestgreen-5: var(--sf-dark-c-forestgreen-5);
+  --sf-dark-c-txt-forestgreen-10: var(--sf-dark-c-forestgreen-10);
+  --sf-dark-c-txt-forestgreen-15: var(--sf-dark-c-forestgreen-15);
+  --sf-dark-c-txt-forestgreen-20: var(--sf-dark-c-forestgreen-20);
+  --sf-dark-c-txt-forestgreen-25: var(--sf-dark-c-forestgreen-25);
+  --sf-dark-c-txt-forestgreen-30: var(--sf-dark-c-forestgreen-30);
+  --sf-dark-c-txt-forestgreen-35: var(--sf-dark-c-forestgreen-35);
+  --sf-dark-c-txt-forestgreen-40: var(--sf-dark-c-forestgreen-40);
+  --sf-dark-c-txt-forestgreen-45: var(--sf-dark-c-forestgreen-45);
+  --sf-dark-c-txt-forestgreen-50: var(--sf-dark-c-forestgreen-50);
+  --sf-dark-c-txt-forestgreen-55: var(--sf-dark-c-forestgreen-55);
+  --sf-dark-c-txt-forestgreen-60: var(--sf-dark-c-forestgreen-60);
+  --sf-dark-c-txt-forestgreen-65: var(--sf-dark-c-forestgreen-65);
+  --sf-dark-c-txt-forestgreen-70: var(--sf-dark-c-forestgreen-70);
+  --sf-dark-c-txt-forestgreen-75: var(--sf-dark-c-forestgreen-75);
+  --sf-dark-c-txt-forestgreen-80: var(--sf-dark-c-forestgreen-80);
+  --sf-dark-c-txt-forestgreen-85: var(--sf-dark-c-forestgreen-85);
+  --sf-dark-c-txt-forestgreen-90: var(--sf-dark-c-forestgreen-90);
+  --sf-dark-c-txt-forestgreen-95: var(--sf-dark-c-forestgreen-95);
+}
+ 
+:root[data-theme="dark"] {
+  --sf-c-forestgreen: var(--sf-dark-c-forestgreen);
+  --sf-c-forestgreen-5: var(--sf-dark-c-forestgreen-5);
+  --sf-c-forestgreen-10: var(--sf-dark-c-forestgreen-10);
+  --sf-c-forestgreen-15: var(--sf-dark-c-forestgreen-15);
+  --sf-c-forestgreen-20: var(--sf-dark-c-forestgreen-20);
+  --sf-c-forestgreen-25: var(--sf-dark-c-forestgreen-25);
+  --sf-c-forestgreen-30: var(--sf-dark-c-forestgreen-30);
+  --sf-c-forestgreen-35: var(--sf-dark-c-forestgreen-35);
+  --sf-c-forestgreen-40: var(--sf-dark-c-forestgreen-40);
+  --sf-c-forestgreen-45: var(--sf-dark-c-forestgreen-45);
+  --sf-c-forestgreen-50: var(--sf-dark-c-forestgreen-50);
+  --sf-c-forestgreen-55: var(--sf-dark-c-forestgreen-55);
+  --sf-c-forestgreen-60: var(--sf-dark-c-forestgreen-60);
+  --sf-c-forestgreen-65: var(--sf-dark-c-forestgreen-65);
+  --sf-c-forestgreen-70: var(--sf-dark-c-forestgreen-70);
+  --sf-c-forestgreen-75: var(--sf-dark-c-forestgreen-75);
+  --sf-c-forestgreen-80: var(--sf-dark-c-forestgreen-80);
+  --sf-c-forestgreen-85: var(--sf-dark-c-forestgreen-85);
+  --sf-c-forestgreen-90: var(--sf-dark-c-forestgreen-90);
+  --sf-c-forestgreen-95: var(--sf-dark-c-forestgreen-95);
+ 
+  --sf-c-txt-forestgreen: var(--sf-dark-c-txt-forestgreen);
+  --sf-c-txt-forestgreen-5: var(--sf-dark-c-txt-forestgreen-5);
+  --sf-c-txt-forestgreen-10: var(--sf-dark-c-txt-forestgreen-10);
+  --sf-c-txt-forestgreen-15: var(--sf-dark-c-txt-forestgreen-15);
+  --sf-c-txt-forestgreen-20: var(--sf-dark-c-txt-forestgreen-20);
+  --sf-c-txt-forestgreen-25: var(--sf-dark-c-txt-forestgreen-25);
+  --sf-c-txt-forestgreen-30: var(--sf-dark-c-txt-forestgreen-30);
+  --sf-c-txt-forestgreen-35: var(--sf-dark-c-txt-forestgreen-35);
+  --sf-c-txt-forestgreen-40: var(--sf-dark-c-txt-forestgreen-40);
+  --sf-c-txt-forestgreen-45: var(--sf-dark-c-txt-forestgreen-45);
+  --sf-c-txt-forestgreen-50: var(--sf-dark-c-txt-forestgreen-50);
+  --sf-c-txt-forestgreen-55: var(--sf-dark-c-txt-forestgreen-55);
+  --sf-c-txt-forestgreen-60: var(--sf-dark-c-txt-forestgreen-60);
+  --sf-c-txt-forestgreen-65: var(--sf-dark-c-txt-forestgreen-65);
+  --sf-c-txt-forestgreen-70: var(--sf-dark-c-txt-forestgreen-70);
+  --sf-c-txt-forestgreen-75: var(--sf-dark-c-txt-forestgreen-75);
+  --sf-c-txt-forestgreen-80: var(--sf-dark-c-txt-forestgreen-80);
+  --sf-c-txt-forestgreen-85: var(--sf-dark-c-txt-forestgreen-85);
+  --sf-c-txt-forestgreen-90: var(--sf-dark-c-txt-forestgreen-90);
+  --sf-c-txt-forestgreen-95: var(--sf-dark-c-txt-forestgreen-95);
+}
+
+.sf-c-forestgreen { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen)) }
+.sf-c-forestgreen\:5 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-5)) }
+.sf-c-forestgreen\:10 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-10)) }
+.sf-c-forestgreen\:15 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-15)) }
+.sf-c-forestgreen\:20 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-20)) }
+.sf-c-forestgreen\:25 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-25)) }
+.sf-c-forestgreen\:30 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-30)) }
+.sf-c-forestgreen\:35 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-35)) }
+.sf-c-forestgreen\:40 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-40)) }
+.sf-c-forestgreen\:45 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-45)) }
+.sf-c-forestgreen\:50 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-50)) }
+.sf-c-forestgreen\:55 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-55)) }
+.sf-c-forestgreen\:60 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-60)) }
+.sf-c-forestgreen\:65 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-65)) }
+.sf-c-forestgreen\:70 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-70)) }
+.sf-c-forestgreen\:75 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-75)) }
+.sf-c-forestgreen\:80 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-80)) }
+.sf-c-forestgreen\:85 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-85)) }
+.sf-c-forestgreen\:90 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-90)) }
+.sf-c-forestgreen\:95 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-95)) }
+ 
+[data-theme="dark"] .sf-c-forestgreen { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen)) }
+[data-theme="dark"] .sf-c-forestgreen\:5 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-5)) }
+[data-theme="dark"] .sf-c-forestgreen\:10 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-10)) }
+[data-theme="dark"] .sf-c-forestgreen\:15 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-15)) }
+[data-theme="dark"] .sf-c-forestgreen\:20 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-20)) }
+[data-theme="dark"] .sf-c-forestgreen\:25 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-25)) }
+[data-theme="dark"] .sf-c-forestgreen\:30 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-30)) }
+[data-theme="dark"] .sf-c-forestgreen\:35 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-35)) }
+[data-theme="dark"] .sf-c-forestgreen\:40 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-40)) }
+[data-theme="dark"] .sf-c-forestgreen\:45 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-45)) }
+[data-theme="dark"] .sf-c-forestgreen\:50 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-50)) }
+[data-theme="dark"] .sf-c-forestgreen\:55 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-55)) }
+[data-theme="dark"] .sf-c-forestgreen\:60 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-60)) }
+[data-theme="dark"] .sf-c-forestgreen\:65 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-65)) }
+[data-theme="dark"] .sf-c-forestgreen\:70 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-70)) }
+[data-theme="dark"] .sf-c-forestgreen\:75 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-75)) }
+[data-theme="dark"] .sf-c-forestgreen\:80 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-80)) }
+[data-theme="dark"] .sf-c-forestgreen\:85 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-85)) }
+[data-theme="dark"] .sf-c-forestgreen\:90 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-90)) }
+[data-theme="dark"] .sf-c-forestgreen\:95 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-95)) }
+ 
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --sf-c-forestgreen: var(--sf-dark-c-forestgreen);
+    --sf-c-forestgreen-5: var(--sf-dark-c-forestgreen-5);
+    --sf-c-forestgreen-10: var(--sf-dark-c-forestgreen-10);
+    --sf-c-forestgreen-15: var(--sf-dark-c-forestgreen-15);
+    --sf-c-forestgreen-20: var(--sf-dark-c-forestgreen-20);
+    --sf-c-forestgreen-25: var(--sf-dark-c-forestgreen-25);
+    --sf-c-forestgreen-30: var(--sf-dark-c-forestgreen-30);
+    --sf-c-forestgreen-35: var(--sf-dark-c-forestgreen-35);
+    --sf-c-forestgreen-40: var(--sf-dark-c-forestgreen-40);
+    --sf-c-forestgreen-45: var(--sf-dark-c-forestgreen-45);
+    --sf-c-forestgreen-50: var(--sf-dark-c-forestgreen-50);
+    --sf-c-forestgreen-55: var(--sf-dark-c-forestgreen-55);
+    --sf-c-forestgreen-60: var(--sf-dark-c-forestgreen-60);
+    --sf-c-forestgreen-65: var(--sf-dark-c-forestgreen-65);
+    --sf-c-forestgreen-70: var(--sf-dark-c-forestgreen-70);
+    --sf-c-forestgreen-75: var(--sf-dark-c-forestgreen-75);
+    --sf-c-forestgreen-80: var(--sf-dark-c-forestgreen-80);
+    --sf-c-forestgreen-85: var(--sf-dark-c-forestgreen-85);
+    --sf-c-forestgreen-90: var(--sf-dark-c-forestgreen-90);
+    --sf-c-forestgreen-95: var(--sf-dark-c-forestgreen-95);
+ 
+    --sf-c-txt-forestgreen: var(--sf-dark-c-txt-forestgreen);
+    --sf-c-txt-forestgreen-5: var(--sf-dark-c-txt-forestgreen-5);
+    --sf-c-txt-forestgreen-10: var(--sf-dark-c-txt-forestgreen-10);
+    --sf-c-txt-forestgreen-15: var(--sf-dark-c-txt-forestgreen-15);
+    --sf-c-txt-forestgreen-20: var(--sf-dark-c-txt-forestgreen-20);
+    --sf-c-txt-forestgreen-25: var(--sf-dark-c-txt-forestgreen-25);
+    --sf-c-txt-forestgreen-30: var(--sf-dark-c-txt-forestgreen-30);
+    --sf-c-txt-forestgreen-35: var(--sf-dark-c-txt-forestgreen-35);
+    --sf-c-txt-forestgreen-40: var(--sf-dark-c-txt-forestgreen-40);
+    --sf-c-txt-forestgreen-45: var(--sf-dark-c-txt-forestgreen-45);
+    --sf-c-txt-forestgreen-50: var(--sf-dark-c-txt-forestgreen-50);
+    --sf-c-txt-forestgreen-55: var(--sf-dark-c-txt-forestgreen-55);
+    --sf-c-txt-forestgreen-60: var(--sf-dark-c-txt-forestgreen-60);
+    --sf-c-txt-forestgreen-65: var(--sf-dark-c-txt-forestgreen-65);
+    --sf-c-txt-forestgreen-70: var(--sf-dark-c-txt-forestgreen-70);
+    --sf-c-txt-forestgreen-75: var(--sf-dark-c-txt-forestgreen-75);
+    --sf-c-txt-forestgreen-80: var(--sf-dark-c-txt-forestgreen-80);
+    --sf-c-txt-forestgreen-85: var(--sf-dark-c-txt-forestgreen-85);
+    --sf-c-txt-forestgreen-90: var(--sf-dark-c-txt-forestgreen-90);
+    --sf-c-txt-forestgreen-95: var(--sf-dark-c-txt-forestgreen-95);
+  }
+ 
+  [data-theme="auto"] .sf-c-forestgreen { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen)) }
+  [data-theme="auto"] .sf-c-forestgreen\:5 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-5)) }
+  [data-theme="auto"] .sf-c-forestgreen\:10 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-10)) }
+  [data-theme="auto"] .sf-c-forestgreen\:15 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-15)) }
+  [data-theme="auto"] .sf-c-forestgreen\:20 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-20)) }
+  [data-theme="auto"] .sf-c-forestgreen\:25 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-25)) }
+  [data-theme="auto"] .sf-c-forestgreen\:30 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-30)) }
+  [data-theme="auto"] .sf-c-forestgreen\:35 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-35)) }
+  [data-theme="auto"] .sf-c-forestgreen\:40 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-40)) }
+  [data-theme="auto"] .sf-c-forestgreen\:45 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-45)) }
+  [data-theme="auto"] .sf-c-forestgreen\:50 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-50)) }
+  [data-theme="auto"] .sf-c-forestgreen\:55 { color: hsl(var(--sf-c-txt-forestgreen-95)); background: hsl(var(--sf-c-forestgreen-55)) }
+  [data-theme="auto"] .sf-c-forestgreen\:60 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-60)) }
+  [data-theme="auto"] .sf-c-forestgreen\:65 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-65)) }
+  [data-theme="auto"] .sf-c-forestgreen\:70 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-70)) }
+  [data-theme="auto"] .sf-c-forestgreen\:75 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-75)) }
+  [data-theme="auto"] .sf-c-forestgreen\:80 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-80)) }
+  [data-theme="auto"] .sf-c-forestgreen\:85 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-85)) }
+  [data-theme="auto"] .sf-c-forestgreen\:90 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-90)) }
+  [data-theme="auto"] .sf-c-forestgreen\:95 { color: hsl(var(--sf-c-txt-forestgreen-5)); background: hsl(var(--sf-c-forestgreen-95)) }
+}
+
+.sf-c-txt-forestgreen { color: hsl(var(--sf-c-txt-forestgreen)) }
+.sf-c-txt-forestgreen\:5 { color: hsl(var(--sf-c-txt-forestgreen-5)) }
+.sf-c-txt-forestgreen\:10 { color: hsl(var(--sf-c-txt-forestgreen-10)) }
+.sf-c-txt-forestgreen\:15 { color: hsl(var(--sf-c-txt-forestgreen-15)) }
+.sf-c-txt-forestgreen\:20 { color: hsl(var(--sf-c-txt-forestgreen-20)) }
+.sf-c-txt-forestgreen\:25 { color: hsl(var(--sf-c-txt-forestgreen-25)) }
+.sf-c-txt-forestgreen\:30 { color: hsl(var(--sf-c-txt-forestgreen-30)) }
+.sf-c-txt-forestgreen\:35 { color: hsl(var(--sf-c-txt-forestgreen-35)) }
+.sf-c-txt-forestgreen\:40 { color: hsl(var(--sf-c-txt-forestgreen-40)) }
+.sf-c-txt-forestgreen\:45 { color: hsl(var(--sf-c-txt-forestgreen-45)) }
+.sf-c-txt-forestgreen\:50 { color: hsl(var(--sf-c-txt-forestgreen-50)) }
+.sf-c-txt-forestgreen\:55 { color: hsl(var(--sf-c-txt-forestgreen-55)) }
+.sf-c-txt-forestgreen\:60 { color: hsl(var(--sf-c-txt-forestgreen-60)) }
+.sf-c-txt-forestgreen\:65 { color: hsl(var(--sf-c-txt-forestgreen-65)) }
+.sf-c-txt-forestgreen\:70 { color: hsl(var(--sf-c-txt-forestgreen-70)) }
+.sf-c-txt-forestgreen\:75 { color: hsl(var(--sf-c-txt-forestgreen-75)) }
+.sf-c-txt-forestgreen\:80 { color: hsl(var(--sf-c-txt-forestgreen-80)) }
+.sf-c-txt-forestgreen\:85 { color: hsl(var(--sf-c-txt-forestgreen-85)) }
+.sf-c-txt-forestgreen\:90 { color: hsl(var(--sf-c-txt-forestgreen-90)) }
+.sf-c-txt-forestgreen\:95 { color: hsl(var(--sf-c-txt-forestgreen-95)) }
