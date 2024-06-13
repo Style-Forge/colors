@@ -11,6 +11,7 @@
   "author": "Sarmaged <sarmaged@gmail.com>",
   "license": "MIT",
   "keywords": [
+    "style-forge",
     "colors",
     "color palettes",
     "theme",
@@ -22,7 +23,6 @@
     "frontend",
     "JavaScript",
     "react",
-    "style-forge",
     "custom colors",
     "color management",
     "web design"
