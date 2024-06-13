@@ -1,20 +1,34 @@
 {
   "name": "style-forge.colors",
   "version": "1.0.0",
-  "description": "Colors CSS for style-forge",
+  "description": "The `style-forge.colors` package provides a comprehensive and customizable set of color palettes for your web applications. It includes predefined color schemes and the ability to create your own custom palettes, ensuring consistent and visually appealing designs across your projects.\n",
   "type": "module",
   "main": "colors.css",
-  "repository": "github:sarmaged/style-forge.colors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmaged/style-forge.colors.git"
+  },
   "author": "Sarmaged <sarmaged@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "style-forge.colors",
-    "css",
-    "colors"
+    "colors",
+    "color palettes",
+    "theme",
+    "CSS-in-JS",
+    "color schemes",
+    "design",
+    "UI",
+    "web development",
+    "frontend",
+    "JavaScript",
+    "react",
+    "style-forge",
+    "custom colors",
+    "color management",
+    "web design"
   ],
   "scripts": {
-    "build": "node builder.js",
-    "prepublishOnly": "yarn build"
+    "build": "node builder.js"
   },
   "devDependencies": {
     "postcss": "^8.4.23",
@@ -22,5 +36,12 @@
     "postcss-discard-comments": "^6.0.0",
     "postcss-import": "^15.1.0",
     "postcss-minify": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sarmaged/style-forge.colors/issues"
+  },
+  "homepage": "https://github.com/sarmaged/style-forge.colors#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
