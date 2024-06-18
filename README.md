@@ -6,35 +6,11 @@
 ![license](https://img.shields.io/npm/l/style-forge.colors)
 ![build](https://github.com/Sarmaged/style-forge.colors/actions/workflows/publish.yml/badge.svg)
 
-## Description
-
 `Style-Forge.Colors` package provides a comprehensive and customizable set of color palettes for your web applications. It includes predefined color schemes and the ability to create your own custom palettes, ensuring consistent and visually appealing designs across your projects.
 
-## Installation
+## Documentation
 
-You can install the package via npm or yarn:
-
-```bash
-npm install style-forge.colors
-```
-
-```bash
-yarn add style-forge.colors
-```
-
-## Usage
-
-After installation, you can import the CSS file into your project:
-
-```css
-@import "style-forge.colors";
-```
-
-Or, if you are using Webpack or another module bundler:
-
-```js
-import 'style-forge.colors';
-```
+To check out docs, visit [style-forge.dev](https://style-forge.dev/colors/).
 
 ## Contributing
 
