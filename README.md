@@ -10,7 +10,7 @@
 
 ## Documentation
 
-To check out docs, visit [style-forge.dev](https://style-forge.dev/colors/).
+To check out docs, visit [style-forge.dev](https://style-forge.dev/colors/)
 
 ## Contributing
 
