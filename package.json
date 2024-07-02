@@ -31,10 +31,10 @@
     "build": "node builder.js"
   },
   "devDependencies": {
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.39",
     "postcss-combine-duplicated-selectors": "^10.0.3",
-    "postcss-discard-comments": "^6.0.0",
-    "postcss-import": "^15.1.0",
+    "postcss-discard-comments": "^7.0.1",
+    "postcss-import": "^16.1.0",
     "postcss-minify": "^1.1.0"
   },
   "bugs": {
