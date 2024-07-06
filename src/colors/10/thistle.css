@@ -44,7 +44,7 @@
   --sf-dark-c-txt-thistle-90: var(--sf-dark-c-thistle-90);
 }
  
-:root[data-theme="dark"] {
+:root:where([data-theme='dark'], .dark) {
   --sf-c-thistle: var(--sf-dark-c-thistle);
   --sf-c-thistle-10: var(--sf-dark-c-thistle-10);
   --sf-c-thistle-20: var(--sf-dark-c-thistle-20);
@@ -68,30 +68,8 @@
   --sf-c-txt-thistle-90: var(--sf-dark-c-txt-thistle-90);
 }
 
-.sf-c-thistle { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle)) }
-.sf-c-thistle\:10 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-10)) }
-.sf-c-thistle\:20 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-20)) }
-.sf-c-thistle\:30 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-30)) }
-.sf-c-thistle\:40 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-40)) }
-.sf-c-thistle\:50 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-50)) }
-.sf-c-thistle\:60 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-60)) }
-.sf-c-thistle\:70 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-70)) }
-.sf-c-thistle\:80 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-80)) }
-.sf-c-thistle\:90 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-90)) }
- 
-[data-theme="dark"] .sf-c-thistle { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle)) }
-[data-theme="dark"] .sf-c-thistle\:10 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-10)) }
-[data-theme="dark"] .sf-c-thistle\:20 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-20)) }
-[data-theme="dark"] .sf-c-thistle\:30 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-30)) }
-[data-theme="dark"] .sf-c-thistle\:40 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-40)) }
-[data-theme="dark"] .sf-c-thistle\:50 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-50)) }
-[data-theme="dark"] .sf-c-thistle\:60 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-60)) }
-[data-theme="dark"] .sf-c-thistle\:70 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-70)) }
-[data-theme="dark"] .sf-c-thistle\:80 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-80)) }
-[data-theme="dark"] .sf-c-thistle\:90 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-90)) }
- 
 @media (prefers-color-scheme: dark) {
-  :root[data-theme="auto"] {
+  :root:where([data-theme='auto'], .auto) {
     --sf-c-thistle: var(--sf-dark-c-thistle);
     --sf-c-thistle-10: var(--sf-dark-c-thistle-10);
     --sf-c-thistle-20: var(--sf-dark-c-thistle-20);
@@ -114,18 +92,29 @@
     --sf-c-txt-thistle-80: var(--sf-dark-c-txt-thistle-80);
     --sf-c-txt-thistle-90: var(--sf-dark-c-txt-thistle-90);
   }
- 
-  [data-theme="auto"] .sf-c-thistle { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle)) }
-  [data-theme="auto"] .sf-c-thistle\:10 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-10)) }
-  [data-theme="auto"] .sf-c-thistle\:20 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-20)) }
-  [data-theme="auto"] .sf-c-thistle\:30 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-30)) }
-  [data-theme="auto"] .sf-c-thistle\:40 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-40)) }
-  [data-theme="auto"] .sf-c-thistle\:50 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-50)) }
-  [data-theme="auto"] .sf-c-thistle\:60 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-60)) }
-  [data-theme="auto"] .sf-c-thistle\:70 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-70)) }
-  [data-theme="auto"] .sf-c-thistle\:80 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-80)) }
-  [data-theme="auto"] .sf-c-thistle\:90 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-90)) }
 }
+ 
+.sf-c-thistle { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle)) }
+.sf-c-thistle\:10 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-10)) }
+.sf-c-thistle\:20 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-20)) }
+.sf-c-thistle\:30 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-30)) }
+.sf-c-thistle\:40 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-40)) }
+.sf-c-thistle\:50 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-50)) }
+.sf-c-thistle\:60 { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-60)) }
+.sf-c-thistle\:70 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-70)) }
+.sf-c-thistle\:80 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-80)) }
+.sf-c-thistle\:90 { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-90)) }
+ 
+:where([data-theme='dark'], .dark) .sf-c-thistle\:dark { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:10\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-10)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:20\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-20)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:30\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-30)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:40\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-40)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:50\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-50)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:60\:dark { color: hsl(var(--sf-c-txt-thistle-90)); background: hsl(var(--sf-c-thistle-60)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:70\:dark { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-70)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:80\:dark { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-80)) }
+:where([data-theme='dark'], .dark) .sf-c-thistle\:90\:dark { color: hsl(var(--sf-c-txt-thistle-10)); background: hsl(var(--sf-c-thistle-90)) }
 
 .sf-c-txt-thistle { color: hsl(var(--sf-c-txt-thistle)) }
 .sf-c-txt-thistle\:10 { color: hsl(var(--sf-c-txt-thistle-10)) }
@@ -137,3 +126,14 @@
 .sf-c-txt-thistle\:70 { color: hsl(var(--sf-c-txt-thistle-70)) }
 .sf-c-txt-thistle\:80 { color: hsl(var(--sf-c-txt-thistle-80)) }
 .sf-c-txt-thistle\:90 { color: hsl(var(--sf-c-txt-thistle-90)) }
+ 
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:dark { color: hsl(var(--sf-c-txt-thistle)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:10\:dark { color: hsl(var(--sf-c-txt-thistle-10)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:20\:dark { color: hsl(var(--sf-c-txt-thistle-20)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:30\:dark { color: hsl(var(--sf-c-txt-thistle-30)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:40\:dark { color: hsl(var(--sf-c-txt-thistle-40)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:50\:dark { color: hsl(var(--sf-c-txt-thistle-50)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:60\:dark { color: hsl(var(--sf-c-txt-thistle-60)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:70\:dark { color: hsl(var(--sf-c-txt-thistle-70)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:80\:dark { color: hsl(var(--sf-c-txt-thistle-80)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-thistle\:90\:dark { color: hsl(var(--sf-c-txt-thistle-90)) }

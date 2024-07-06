@@ -44,7 +44,7 @@
   --sf-dark-c-txt-khaki-90: var(--sf-dark-c-khaki-90);
 }
  
-:root[data-theme="dark"] {
+:root:where([data-theme='dark'], .dark) {
   --sf-c-khaki: var(--sf-dark-c-khaki);
   --sf-c-khaki-10: var(--sf-dark-c-khaki-10);
   --sf-c-khaki-20: var(--sf-dark-c-khaki-20);
@@ -68,30 +68,8 @@
   --sf-c-txt-khaki-90: var(--sf-dark-c-txt-khaki-90);
 }
 
-.sf-c-khaki { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki)) }
-.sf-c-khaki\:10 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-10)) }
-.sf-c-khaki\:20 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-20)) }
-.sf-c-khaki\:30 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-30)) }
-.sf-c-khaki\:40 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-40)) }
-.sf-c-khaki\:50 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-50)) }
-.sf-c-khaki\:60 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-60)) }
-.sf-c-khaki\:70 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-70)) }
-.sf-c-khaki\:80 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-80)) }
-.sf-c-khaki\:90 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-90)) }
- 
-[data-theme="dark"] .sf-c-khaki { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki)) }
-[data-theme="dark"] .sf-c-khaki\:10 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-10)) }
-[data-theme="dark"] .sf-c-khaki\:20 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-20)) }
-[data-theme="dark"] .sf-c-khaki\:30 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-30)) }
-[data-theme="dark"] .sf-c-khaki\:40 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-40)) }
-[data-theme="dark"] .sf-c-khaki\:50 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-50)) }
-[data-theme="dark"] .sf-c-khaki\:60 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-60)) }
-[data-theme="dark"] .sf-c-khaki\:70 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-70)) }
-[data-theme="dark"] .sf-c-khaki\:80 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-80)) }
-[data-theme="dark"] .sf-c-khaki\:90 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-90)) }
- 
 @media (prefers-color-scheme: dark) {
-  :root[data-theme="auto"] {
+  :root:where([data-theme='auto'], .auto) {
     --sf-c-khaki: var(--sf-dark-c-khaki);
     --sf-c-khaki-10: var(--sf-dark-c-khaki-10);
     --sf-c-khaki-20: var(--sf-dark-c-khaki-20);
@@ -114,18 +92,29 @@
     --sf-c-txt-khaki-80: var(--sf-dark-c-txt-khaki-80);
     --sf-c-txt-khaki-90: var(--sf-dark-c-txt-khaki-90);
   }
- 
-  [data-theme="auto"] .sf-c-khaki { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki)) }
-  [data-theme="auto"] .sf-c-khaki\:10 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-10)) }
-  [data-theme="auto"] .sf-c-khaki\:20 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-20)) }
-  [data-theme="auto"] .sf-c-khaki\:30 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-30)) }
-  [data-theme="auto"] .sf-c-khaki\:40 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-40)) }
-  [data-theme="auto"] .sf-c-khaki\:50 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-50)) }
-  [data-theme="auto"] .sf-c-khaki\:60 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-60)) }
-  [data-theme="auto"] .sf-c-khaki\:70 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-70)) }
-  [data-theme="auto"] .sf-c-khaki\:80 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-80)) }
-  [data-theme="auto"] .sf-c-khaki\:90 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-90)) }
 }
+ 
+.sf-c-khaki { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki)) }
+.sf-c-khaki\:10 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-10)) }
+.sf-c-khaki\:20 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-20)) }
+.sf-c-khaki\:30 { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-30)) }
+.sf-c-khaki\:40 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-40)) }
+.sf-c-khaki\:50 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-50)) }
+.sf-c-khaki\:60 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-60)) }
+.sf-c-khaki\:70 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-70)) }
+.sf-c-khaki\:80 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-80)) }
+.sf-c-khaki\:90 { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-90)) }
+ 
+:where([data-theme='dark'], .dark) .sf-c-khaki\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:10\:dark { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-10)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:20\:dark { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-20)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:30\:dark { color: hsl(var(--sf-c-txt-khaki-90)); background: hsl(var(--sf-c-khaki-30)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:40\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-40)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:50\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-50)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:60\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-60)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:70\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-70)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:80\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-80)) }
+:where([data-theme='dark'], .dark) .sf-c-khaki\:90\:dark { color: hsl(var(--sf-c-txt-khaki-10)); background: hsl(var(--sf-c-khaki-90)) }
 
 .sf-c-txt-khaki { color: hsl(var(--sf-c-txt-khaki)) }
 .sf-c-txt-khaki\:10 { color: hsl(var(--sf-c-txt-khaki-10)) }
@@ -137,3 +126,14 @@
 .sf-c-txt-khaki\:70 { color: hsl(var(--sf-c-txt-khaki-70)) }
 .sf-c-txt-khaki\:80 { color: hsl(var(--sf-c-txt-khaki-80)) }
 .sf-c-txt-khaki\:90 { color: hsl(var(--sf-c-txt-khaki-90)) }
+ 
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:dark { color: hsl(var(--sf-c-txt-khaki)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:10\:dark { color: hsl(var(--sf-c-txt-khaki-10)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:20\:dark { color: hsl(var(--sf-c-txt-khaki-20)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:30\:dark { color: hsl(var(--sf-c-txt-khaki-30)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:40\:dark { color: hsl(var(--sf-c-txt-khaki-40)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:50\:dark { color: hsl(var(--sf-c-txt-khaki-50)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:60\:dark { color: hsl(var(--sf-c-txt-khaki-60)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:70\:dark { color: hsl(var(--sf-c-txt-khaki-70)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:80\:dark { color: hsl(var(--sf-c-txt-khaki-80)) }
+:where([data-theme='dark'], .dark) .sf-c-txt-khaki\:90\:dark { color: hsl(var(--sf-c-txt-khaki-90)) }
