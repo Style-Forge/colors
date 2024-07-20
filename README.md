@@ -4,8 +4,8 @@
 ![npm](https://img.shields.io/npm/v/style-forge.colors)
 ![license](https://img.shields.io/npm/l/style-forge.colors)
 ![npm](https://img.shields.io/npm/dm/style-forge.colors)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/36308e559c9a4815bdcaf747e7804807)](https://app.codacy.com/gh/Sarmaged/style-forge.colors/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-![build](https://github.com/Sarmaged/style-forge.colors/actions/workflows/publish.yml/badge.svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e659ed33f24740a6942f68b7f87e254f)](https://app.codacy.com/gh/Style-Forge/colors/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+![build](https://github.com/Style-Forge/colors/actions/workflows/publish.yml/badge.svg)
 
 `Style-Forge.Colors` package provides a comprehensive and customizable set of color palettes for your web applications. It includes predefined color schemes and the ability to create your own custom palettes, ensuring consistent and visually appealing designs across your projects.
 
@@ -29,15 +29,50 @@ For more detailed information, please refer to [CONTRIBUTING.md](CONTRIBUTING.md
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Links
+## Modules
 
-- [style-forge](https://github.com/Sarmaged/style-forge)
-- [style-forge.base](https://github.com/Sarmaged/style-forge.base)
-- [style-forge.colors](https://github.com/Sarmaged/style-forge.colors)
-- [style-forge.form](https://github.com/Sarmaged/style-forge.form)
-- [style-forge.helpers](https://github.com/Sarmaged/style-forge.helpers)
-- [style-forge.patterns](https://github.com/Sarmaged/style-forge.patterns)
-- [style-forge.themes](https://github.com/Sarmaged/style-forge.themes)
+<table>
+  <tr>
+    <th>Module</th>
+    <th>Version</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/hub">hub</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge" alt="npm"></td>
+    <td>Central repository that integrates all project modules.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/base">base</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.base" alt="npm"></td>
+    <td>Basic styles and foundational components of the project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/helpers">helpers</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.helpers" alt="npm"></td>
+    <td>Utility functions and helpers for the project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/form">form</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.form" alt="npm"></td>
+    <td>Styles and components for creating forms.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/themes">themes</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.themes" alt="npm"></td>
+    <td>Themes and styling options for the project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/patterns">patterns</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.patterns" alt="npm"></td>
+    <td>Reusable patterns and templates for the project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Style-Forge/colors">colors</a></td>
+    <td><img src="https://img.shields.io/npm/v/style-forge.colors" alt="npm"></td>
+    <td>Color palettes and styles for the project.</td>
+  </tr>
+</table>
 
 ## Authors
 
@@ -45,4 +80,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, please open an issue in [Issues](https://github.com/Sarmaged/style-forge.colors/issues).
+If you have any questions or suggestions, please open an issue in [Issues](https://github.com/Style-Forge/colors/issues).
