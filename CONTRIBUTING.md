@@ -1,7 +1,7 @@
 
-# Contributing to style-forge.colors
+# Contributing to Style-Forge.Colors
 
-Thank you for your interest in contributing to the style-forge.colors project! We welcome contributions from the community. Please follow these guidelines to ensure a smooth contribution process.
+Thank you for your interest in contributing to the `Style-Forge.Colors` project! We welcome contributions from the community. Please follow these guidelines to ensure a smooth contribution process.
 
 ## How to Contribute
 
@@ -10,7 +10,7 @@ Thank you for your interest in contributing to the style-forge.colors project! W
 
 2. **Clone the forked repository to your local machine**
    ```bash
-   git clone https://github.com/your-username/style-forge.colors.git
+   git clone https://github.com/Style-Forge/colors.git
    ```
 
 3. **Create a new branch for your changes**
@@ -49,5 +49,7 @@ If you find a bug or have a feature request, please open an issue on GitHub. Pro
 
 - Be respectful and considerate in your communications.
 - Follow the project's code of conduct.
+
+For more information, visit our [documentation site](https://style-forge.dev/colors/).
 
 Thank you for your contributions!

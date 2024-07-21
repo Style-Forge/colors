@@ -6,9 +6,9 @@
   "main": "colors.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarmaged/style-forge.colors.git"
+    "url": "git+https://github.com/Style-Forge/colors.git"
   },
-  "author": "Sarmaged <sarmaged@gmail.com>",
+  "author": "Dmitrii Sagalov <sarmaged@gmail.com>",
   "license": "MIT",
   "keywords": [
     "style-forge",
@@ -38,9 +38,9 @@
     "postcss-minify": "^1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/sarmaged/style-forge.colors/issues"
+    "url": "https://github.com/Style-Forge/colors/issues"
   },
-  "homepage": "https://github.com/sarmaged/style-forge.colors#readme",
+  "homepage": "https://style-forge.dev/colors/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
