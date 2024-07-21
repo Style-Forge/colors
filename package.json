@@ -1,6 +1,6 @@
 {
   "name": "style-forge.colors",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Style-Forge.Colors: customizable color palettes for consistent, visually appealing web designs.",
   "type": "module",
   "main": "colors.css",
