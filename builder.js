@@ -22,6 +22,4 @@ function init(fromName, toName) {
     .then(({ css }) => fs.writeFile(to, [header, css].join('\n\n'), () => true))
 }
 
-init(10, 10)
-init(20, 20)
 init('web', 'colors')
