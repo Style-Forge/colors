@@ -4,8 +4,7 @@
 ![npm](https://img.shields.io/npm/v/style-forge.colors)
 ![license](https://img.shields.io/npm/l/style-forge.colors)
 ![npm](https://img.shields.io/npm/dm/style-forge.colors)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e659ed33f24740a6942f68b7f87e254f)](https://app.codacy.com/gh/Style-Forge/colors/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-![build](https://github.com/Style-Forge/colors/actions/workflows/publish.yml/badge.svg)
+![build](https://github.com/Style-Forge/colors/actions/workflows/release.yml/badge.svg)
 
 `Style-Forge.Colors` package provides a comprehensive and customizable set of color palettes for your web applications. It includes predefined color schemes and the ability to create your own custom palettes, ensuring consistent and visually appealing designs across your projects.
 

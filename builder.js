@@ -7,7 +7,7 @@ import pComments from 'postcss-discard-comments'
 import pMinify from 'postcss-minify'
 
 const packageFile = JSON.parse(fs.readFileSync('package.json', 'utf8'))
-const title = packageFile.name + ' v' + packageFile.version
+const title = packageFile.name + ' ' + packageFile.version
 const license = packageFile.license + ' License'
 const link = packageFile.repository.url.replace('git+', '').replace('.git', '')
 const header = '/*! ' + [title, license, link].join(' | ') + ' */'
