@@ -22,4 +22,5 @@ function init(fromName, toName) {
     .then(({ css }) => fs.writeFile(to, [header, css].join('\n\n'), () => true))
 }
 
-init('web', 'colors')
+init('web', 'web')
+init('rainbow', 'colors')
