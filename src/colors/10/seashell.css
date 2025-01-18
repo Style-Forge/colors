@@ -78,6 +78,32 @@ html.var .sf-c-seashell\:80 { color: hsl(25, 100%, 10%); background: hsl(25, 100
 html.var .sf-c-seashell\:90 { color: hsl(25, 100%, 10%); background: hsl(25, 100%, 90%) }
 html.var .sf-c-seashell\:100 { color: hsl(25, 100%, 10%); background: hsl(25, 100%, 100%) }
 
+.sf-c-txt-seashell { color: hsl(var(--sf-dark-c-txt-seashell)) }
+.sf-c-txt-seashell\:0 { color: hsl(var(--sf-dark-c-txt-seashell-100)) }
+.sf-c-txt-seashell\:10 { color: hsl(var(--sf-dark-c-txt-seashell-90)) }
+.sf-c-txt-seashell\:20 { color: hsl(var(--sf-dark-c-txt-seashell-80)) }
+.sf-c-txt-seashell\:30 { color: hsl(var(--sf-dark-c-txt-seashell-70)) }
+.sf-c-txt-seashell\:40 { color: hsl(var(--sf-dark-c-txt-seashell-60)) }
+.sf-c-txt-seashell\:50 { color: hsl(var(--sf-dark-c-txt-seashell-50)) }
+.sf-c-txt-seashell\:60 { color: hsl(var(--sf-dark-c-txt-seashell-40)) }
+.sf-c-txt-seashell\:70 { color: hsl(var(--sf-dark-c-txt-seashell-30)) }
+.sf-c-txt-seashell\:80 { color: hsl(var(--sf-dark-c-txt-seashell-20)) }
+.sf-c-txt-seashell\:90 { color: hsl(var(--sf-dark-c-txt-seashell-10)) }
+.sf-c-txt-seashell\:100 { color: hsl(var(--sf-dark-c-txt-seashell-0)) }
+
+html.var .sf-c-txt-seashell { color: hsl(25, 100%, 3%) }
+html.var .sf-c-txt-seashell\:0 { color: hsl(25, 100%, 100%) }
+html.var .sf-c-txt-seashell\:10 { color: hsl(25, 100%, 90%) }
+html.var .sf-c-txt-seashell\:20 { color: hsl(25, 100%, 80%) }
+html.var .sf-c-txt-seashell\:30 { color: hsl(25, 100%, 70%) }
+html.var .sf-c-txt-seashell\:40 { color: hsl(25, 100%, 60%) }
+html.var .sf-c-txt-seashell\:50 { color: hsl(25, 100%, 50%) }
+html.var .sf-c-txt-seashell\:60 { color: hsl(25, 100%, 40%) }
+html.var .sf-c-txt-seashell\:70 { color: hsl(25, 100%, 30%) }
+html.var .sf-c-txt-seashell\:80 { color: hsl(25, 100%, 20%) }
+html.var .sf-c-txt-seashell\:90 { color: hsl(25, 100%, 10%) }
+html.var .sf-c-txt-seashell\:100 { color: hsl(25, 100%, 0%) }
+
 html[data-theme='dark'] .sf-c-seashell, html.dark .sf-c-seashell { color: hsl(var(--sf-dark-c-txt-seashell-90)); background: hsl(var(--sf-dark-c-seashell)) }
 html[data-theme='dark'] .sf-c-seashell\:0, html.dark .sf-c-seashell\:0 { color: hsl(var(--sf-dark-c-txt-seashell-90)); background: hsl(var(--sf-dark-c-seashell-100)) }
 html[data-theme='dark'] .sf-c-seashell\:10, html.dark .sf-c-seashell\:10 { color: hsl(var(--sf-dark-c-txt-seashell-10)); background: hsl(var(--sf-dark-c-seashell-90)) }
@@ -104,6 +130,32 @@ html[data-theme='dark'] .sf-c-seashell\:80\:dark, html.dark .sf-c-seashell\:80\:
 html[data-theme='dark'] .sf-c-seashell\:90\:dark, html.dark .sf-c-seashell\:90\:dark { color: hsl(var(--sf-c-txt-seashell-90)); background: hsl(var(--sf-c-seashell-10)) }
 html[data-theme='dark'] .sf-c-seashell\:100\:dark, html.dark .sf-c-seashell\:100\:dark { color: hsl(var(--sf-c-txt-seashell-90)); background: hsl(var(--sf-c-seashell-0)) }
 
+html[data-theme='dark'] .sf-c-txt-seashell, html.dark .sf-c-txt-seashell { color: hsl(var(--sf-c-txt-seashell)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:0, html.dark .sf-c-txt-seashell\:0 { color: hsl(var(--sf-c-txt-seashell-0)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:10, html.dark .sf-c-txt-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-10)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:20, html.dark .sf-c-txt-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-20)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:30, html.dark .sf-c-txt-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-30)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:40, html.dark .sf-c-txt-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-40)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:50, html.dark .sf-c-txt-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-50)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:60, html.dark .sf-c-txt-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-60)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:70, html.dark .sf-c-txt-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-70)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:80, html.dark .sf-c-txt-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-80)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:90, html.dark .sf-c-txt-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-90)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:100, html.dark .sf-c-txt-seashell\:100 { color: hsl(var(--sf-c-txt-seashell-100)) }
+
+html[data-theme='dark'] .sf-c-txt-seashell\:dark, html.dark .sf-c-txt-seashell\:dark { color: hsl(var(--sf-c-txt-seashell)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:0\:dark, html.dark .sf-c-txt-seashell\:0\:dark { color: hsl(var(--sf-dark-c-txt-seashell-0)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:10\:dark, html.dark .sf-c-txt-seashell\:10\:dark { color: hsl(var(--sf-dark-c-txt-seashell-10)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:20\:dark, html.dark .sf-c-txt-seashell\:20\:dark { color: hsl(var(--sf-dark-c-txt-seashell-20)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:30\:dark, html.dark .sf-c-txt-seashell\:30\:dark { color: hsl(var(--sf-dark-c-txt-seashell-30)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:40\:dark, html.dark .sf-c-txt-seashell\:40\:dark { color: hsl(var(--sf-dark-c-txt-seashell-40)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:50\:dark, html.dark .sf-c-txt-seashell\:50\:dark { color: hsl(var(--sf-dark-c-txt-seashell-50)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:60\:dark, html.dark .sf-c-txt-seashell\:60\:dark { color: hsl(var(--sf-dark-c-txt-seashell-60)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:70\:dark, html.dark .sf-c-txt-seashell\:70\:dark { color: hsl(var(--sf-dark-c-txt-seashell-70)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:80\:dark, html.dark .sf-c-txt-seashell\:80\:dark { color: hsl(var(--sf-dark-c-txt-seashell-80)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:90\:dark, html.dark .sf-c-txt-seashell\:90\:dark { color: hsl(var(--sf-dark-c-txt-seashell-90)) }
+html[data-theme='dark'] .sf-c-txt-seashell\:100\:dark, html.dark .sf-c-txt-seashell\:100\:dark { color: hsl(var(--sf-dark-c-txt-seashell-100)) }
+
 html.var[data-theme='dark'] .sf-c-seashell, html.var.dark .sf-c-seashell { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 3%) }
 html.var[data-theme='dark'] .sf-c-seashell\:0, html.var.dark .sf-c-seashell\:0 { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 100%) }
 html.var[data-theme='dark'] .sf-c-seashell\:10, html.var.dark .sf-c-seashell\:10 { color: hsl(25, 100%, 10%); background: hsl(25, 100%, 90%) }
@@ -129,6 +181,32 @@ html.var[data-theme='dark'] .sf-c-seashell\:70\:dark, html.var.dark .sf-c-seashe
 html.var[data-theme='dark'] .sf-c-seashell\:80\:dark, html.var.dark .sf-c-seashell\:80\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 20%) }
 html.var[data-theme='dark'] .sf-c-seashell\:90\:dark, html.var.dark .sf-c-seashell\:90\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 10%) }
 html.var[data-theme='dark'] .sf-c-seashell\:100\:dark, html.var.dark .sf-c-seashell\:100\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 0%) }
+
+html.var[data-theme='dark'] .sf-c-txt-seashell, html.dark .sf-c-txt-seashell { color: hsl(25, 100%, 97%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:0, html.dark .sf-c-txt-seashell\:0 { color: hsl(25, 100%, 0%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:10, html.dark .sf-c-txt-seashell\:10 { color: hsl(25, 100%, 10%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:20, html.dark .sf-c-txt-seashell\:20 { color: hsl(25, 100%, 20%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:30, html.dark .sf-c-txt-seashell\:30 { color: hsl(25, 100%, 30%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:40, html.dark .sf-c-txt-seashell\:40 { color: hsl(25, 100%, 40%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:50, html.dark .sf-c-txt-seashell\:50 { color: hsl(25, 100%, 50%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:60, html.dark .sf-c-txt-seashell\:60 { color: hsl(25, 100%, 60%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:70, html.dark .sf-c-txt-seashell\:70 { color: hsl(25, 100%, 70%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:80, html.dark .sf-c-txt-seashell\:80 { color: hsl(25, 100%, 80%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:90, html.dark .sf-c-txt-seashell\:90 { color: hsl(25, 100%, 90%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:100, html.dark .sf-c-txt-seashell\:100 { color: hsl(25, 100%, 100%) }
+
+html.var[data-theme='dark'] .sf-c-txt-seashell\:dark, html.dark .sf-c-txt-seashell\:dark { color: hsl(25, 100%, 97%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:0\:dark, html.dark .sf-c-txt-seashell\:0\:dark { color: hsl(25, 100%, 0%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:10\:dark, html.dark .sf-c-txt-seashell\:10\:dark { color: hsl(25, 100%, 10%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:20\:dark, html.dark .sf-c-txt-seashell\:20\:dark { color: hsl(25, 100%, 20%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:30\:dark, html.dark .sf-c-txt-seashell\:30\:dark { color: hsl(25, 100%, 30%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:40\:dark, html.dark .sf-c-txt-seashell\:40\:dark { color: hsl(25, 100%, 40%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:50\:dark, html.dark .sf-c-txt-seashell\:50\:dark { color: hsl(25, 100%, 50%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:60\:dark, html.dark .sf-c-txt-seashell\:60\:dark { color: hsl(25, 100%, 60%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:70\:dark, html.dark .sf-c-txt-seashell\:70\:dark { color: hsl(25, 100%, 70%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:80\:dark, html.dark .sf-c-txt-seashell\:80\:dark { color: hsl(25, 100%, 80%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:90\:dark, html.dark .sf-c-txt-seashell\:90\:dark { color: hsl(25, 100%, 90%) }
+html.var[data-theme='dark'] .sf-c-txt-seashell\:100\:dark, html.dark .sf-c-txt-seashell\:100\:dark { color: hsl(25, 100%, 100%) }
 
 @media (prefers-color-scheme: dark) {
   html[data-theme='auto'] .sf-c-seashell, html.auto .sf-c-seashell { color: hsl(var(--sf-dark-c-txt-seashell-90)); background: hsl(var(--sf-dark-c-seashell)) }
@@ -157,6 +235,32 @@ html.var[data-theme='dark'] .sf-c-seashell\:100\:dark, html.var.dark .sf-c-seash
   html[data-theme='auto'] .sf-c-seashell\:90\:dark, html.auto .sf-c-seashell\:90\:dark { color: hsl(var(--sf-c-txt-seashell-90)); background: hsl(var(--sf-c-seashell-10)) }
   html[data-theme='auto'] .sf-c-seashell\:100\:dark, html.auto .sf-c-seashell\:100\:dark { color: hsl(var(--sf-c-txt-seashell-90)); background: hsl(var(--sf-c-seashell-0)) }
 
+  html[data-theme='auto'] .sf-c-txt-seashell, html.auto .sf-c-txt-seashell { color: hsl(var(--sf-c-txt-seashell)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:0, html.auto .sf-c-txt-seashell\:0 { color: hsl(var(--sf-c-txt-seashell-0)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:10, html.auto .sf-c-txt-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-10)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:20, html.auto .sf-c-txt-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-20)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:30, html.auto .sf-c-txt-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-30)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:40, html.auto .sf-c-txt-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-40)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:50, html.auto .sf-c-txt-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-50)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:60, html.auto .sf-c-txt-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-60)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:70, html.auto .sf-c-txt-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-70)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:80, html.auto .sf-c-txt-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-80)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:90, html.auto .sf-c-txt-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-90)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:100, html.auto .sf-c-txt-seashell\:100 { color: hsl(var(--sf-c-txt-seashell-100)) }
+
+  html[data-theme='auto'] .sf-c-txt-seashell\:dark, html.auto .sf-c-txt-seashell\:dark { color: hsl(var(--sf-c-txt-seashell)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:0\:dark, html.auto .sf-c-txt-seashell\:0\:dark { color: hsl(var(--sf-c-txt-seashell-0)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:10\:dark, html.auto .sf-c-txt-seashell\:10\:dark { color: hsl(var(--sf-c-txt-seashell-10)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:20\:dark, html.auto .sf-c-txt-seashell\:20\:dark { color: hsl(var(--sf-c-txt-seashell-20)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:30\:dark, html.auto .sf-c-txt-seashell\:30\:dark { color: hsl(var(--sf-c-txt-seashell-30)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:40\:dark, html.auto .sf-c-txt-seashell\:40\:dark { color: hsl(var(--sf-c-txt-seashell-40)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:50\:dark, html.auto .sf-c-txt-seashell\:50\:dark { color: hsl(var(--sf-c-txt-seashell-50)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:60\:dark, html.auto .sf-c-txt-seashell\:60\:dark { color: hsl(var(--sf-c-txt-seashell-60)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:70\:dark, html.auto .sf-c-txt-seashell\:70\:dark { color: hsl(var(--sf-c-txt-seashell-70)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:80\:dark, html.auto .sf-c-txt-seashell\:80\:dark { color: hsl(var(--sf-c-txt-seashell-80)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:90\:dark, html.auto .sf-c-txt-seashell\:90\:dark { color: hsl(var(--sf-c-txt-seashell-90)) }
+  html[data-theme='auto'] .sf-c-txt-seashell\:100\:dark, html.auto .sf-c-txt-seashell\:100\:dark { color: hsl(var(--sf-c-txt-seashell-100)) }
+
   html.var[data-theme='auto'] .sf-c-seashell, html.var.auto .sf-c-seashell { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 3%) }
   html.var[data-theme='auto'] .sf-c-seashell\:0, html.var.auto .sf-c-seashell\:0 { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 100%) }
   html.var[data-theme='auto'] .sf-c-seashell\:10, html.var.auto .sf-c-seashell\:10 { color: hsl(25, 100%, 10%); background: hsl(25, 100%, 90%) }
@@ -182,17 +286,30 @@ html.var[data-theme='dark'] .sf-c-seashell\:100\:dark, html.var.dark .sf-c-seash
   html.var[data-theme='auto'] .sf-c-seashell\:80\:dark, html.var.auto .sf-c-seashell\:80\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 20%) }
   html.var[data-theme='auto'] .sf-c-seashell\:90\:dark, html.var.auto .sf-c-seashell\:90\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 10%) }
   html.var[data-theme='auto'] .sf-c-seashell\:100\:dark, html.var.auto .sf-c-seashell\:100\:dark { color: hsl(25, 100%, 90%); background: hsl(25, 100%, 0%) }
-}
 
-.sf-c-txt-seashell { color: hsl(var(--sf-c-txt-seashell)) }
-.sf-c-txt-seashell\:0 { color: hsl(var(--sf-c-txt-seashell-0)) }
-.sf-c-txt-seashell\:10 { color: hsl(var(--sf-c-txt-seashell-10)) }
-.sf-c-txt-seashell\:20 { color: hsl(var(--sf-c-txt-seashell-20)) }
-.sf-c-txt-seashell\:30 { color: hsl(var(--sf-c-txt-seashell-30)) }
-.sf-c-txt-seashell\:40 { color: hsl(var(--sf-c-txt-seashell-40)) }
-.sf-c-txt-seashell\:50 { color: hsl(var(--sf-c-txt-seashell-50)) }
-.sf-c-txt-seashell\:60 { color: hsl(var(--sf-c-txt-seashell-60)) }
-.sf-c-txt-seashell\:70 { color: hsl(var(--sf-c-txt-seashell-70)) }
-.sf-c-txt-seashell\:80 { color: hsl(var(--sf-c-txt-seashell-80)) }
-.sf-c-txt-seashell\:90 { color: hsl(var(--sf-c-txt-seashell-90)) }
-.sf-c-txt-seashell\:100 { color: hsl(var(--sf-c-txt-seashell-100)) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell, html.auto .sf-c-txt-seashell { color: hsl(25, 100%, 97%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:0, html.auto .sf-c-txt-seashell\:0 { color: hsl(25, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:10, html.auto .sf-c-txt-seashell\:10 { color: hsl(25, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:20, html.auto .sf-c-txt-seashell\:20 { color: hsl(25, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:30, html.auto .sf-c-txt-seashell\:30 { color: hsl(25, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:40, html.auto .sf-c-txt-seashell\:40 { color: hsl(25, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:50, html.auto .sf-c-txt-seashell\:50 { color: hsl(25, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:60, html.auto .sf-c-txt-seashell\:60 { color: hsl(25, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:70, html.auto .sf-c-txt-seashell\:70 { color: hsl(25, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:80, html.auto .sf-c-txt-seashell\:80 { color: hsl(25, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:90, html.auto .sf-c-txt-seashell\:90 { color: hsl(25, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:100, html.auto .sf-c-txt-seashell\:100 { color: hsl(25, 100%, 100%) }
+
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:dark, html.auto .sf-c-txt-seashell\:dark { color: hsl(25, 100%, 97%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:0\:dark, html.auto .sf-c-txt-seashell\:0\:dark { color: hsl(25, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:10\:dark, html.auto .sf-c-txt-seashell\:10\:dark { color: hsl(25, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:20\:dark, html.auto .sf-c-txt-seashell\:20\:dark { color: hsl(25, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:30\:dark, html.auto .sf-c-txt-seashell\:30\:dark { color: hsl(25, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:40\:dark, html.auto .sf-c-txt-seashell\:40\:dark { color: hsl(25, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:50\:dark, html.auto .sf-c-txt-seashell\:50\:dark { color: hsl(25, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:60\:dark, html.auto .sf-c-txt-seashell\:60\:dark { color: hsl(25, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:70\:dark, html.auto .sf-c-txt-seashell\:70\:dark { color: hsl(25, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:80\:dark, html.auto .sf-c-txt-seashell\:80\:dark { color: hsl(25, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:90\:dark, html.auto .sf-c-txt-seashell\:90\:dark { color: hsl(25, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-seashell\:100\:dark, html.auto .sf-c-txt-seashell\:100\:dark { color: hsl(25, 100%, 100%) }
+}
