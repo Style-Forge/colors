@@ -1,8 +1,8 @@
-@import 'colors/10/black.css';
-@import 'colors/10/blue.css';
-@import 'colors/10/green.css';
-@import 'colors/10/orange.css';
-@import 'colors/10/red.css';
-@import 'colors/10/skyblue.css';
-@import 'colors/10/violet.css';
-@import 'colors/10/yellow.css';
+@import './colors/10/black.css';
+@import './colors/10/blue.css';
+@import './colors/10/green.css';
+@import './colors/10/orange.css';
+@import './colors/10/red.css';
+@import './colors/10/skyblue.css';
+@import './colors/10/violet.css';
+@import './colors/10/yellow.css';
